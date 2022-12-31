@@ -1,0 +1,11 @@
+file_format: "1"
+id: dactyl_bee
+Name: Dactyl_Bee
+type: shield
+url: https://github.com/manofthebees/zmk-config-dactyl
+requires: [seeed_xiao]
+features:
+  -keys
+siblings:
+  - dactyl_bee_left
+  - dactyl_bee_right

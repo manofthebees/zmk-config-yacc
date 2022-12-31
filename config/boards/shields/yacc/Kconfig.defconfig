@@ -1,0 +1,16 @@
+if SHIELD_YACC_LEFT
+ 
+config ZMK_KEYBOARD_NAME
+    default "yacc v1.1"
+ 
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+ 
+endif
+ 
+if SHIELD_YACC_LEFT || SHIELD_YACC_RIGHT
+ 
+config ZMK_SPLIT
+    default y
+ 
+endif

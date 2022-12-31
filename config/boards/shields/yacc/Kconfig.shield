@@ -1,0 +1,7 @@
+config SHIELD_YACC_LEFT
+    def_bool $(shields_list_contains,yacc_left)
+    select SHIELD_YACC
+
+config SHIELD_YACC_RIGHT
+    def_bool $(shields_list_contains,yacc_right)
+    select SHIELD_YACC
