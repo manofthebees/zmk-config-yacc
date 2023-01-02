@@ -1,6 +1,6 @@
 file_format: "1"
-id: dactyl_bee
-Name: Dactyl_Bee
+id: yacc
+Name: yacc
 type: shield
 url: https://github.com/manofthebees/zmk-config-dactyl
 requires: [seeed_xiao]
