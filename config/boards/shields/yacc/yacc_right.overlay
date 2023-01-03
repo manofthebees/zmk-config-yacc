@@ -1,7 +1,7 @@
 #include "yacc.dtsi"
 
 &default_transform { // The matrix transform for this board is 5
-    col-offset = <6>;
+    col-offset = <4>;
 };
 
 &kscan0 {
